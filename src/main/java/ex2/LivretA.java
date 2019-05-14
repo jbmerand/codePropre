@@ -34,4 +34,23 @@ public class LivretA extends CompteBancaire {
 	public void appliquerRemuAnnuelle() {
 		this.solde = solde + solde * tauxRemuneration / 100;
 	}
+
+	/**
+	 * Getter
+	 * 
+	 * @return the tauxRemuneration
+	 */
+	public double getTauxRemuneration() {
+		return tauxRemuneration;
+	}
+
+	/**
+	 * Setter
+	 * 
+	 * @param tauxRemuneration
+	 *            the tauxRemuneration to set
+	 */
+	public void setTauxRemuneration(double tauxRemuneration) {
+		this.tauxRemuneration = tauxRemuneration;
+	}
 }

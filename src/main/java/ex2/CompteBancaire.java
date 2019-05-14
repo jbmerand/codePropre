@@ -35,4 +35,23 @@ public abstract class CompteBancaire {
 	 */
 	public abstract void debiterMontant(double montant);
 
+	/**
+	 * Getter
+	 * 
+	 * @return the solde
+	 */
+	public double getSolde() {
+		return solde;
+	}
+
+	/**
+	 * Setter
+	 * 
+	 * @param solde
+	 *            the solde to set
+	 */
+	public void setSolde(double solde) {
+		this.solde = solde;
+	}
+
 }
